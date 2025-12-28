@@ -1,231 +1,324 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <title>TJ Biology Olympiad Team</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="The Official TJHSST Biology Team Website" />
+  <meta name="keywords"
+    content="tjhsst, tj, biooly, tj biology olympiad, tjhsst biology olympiad, biology olympiad tj" />
+  <script src="js/jquery.min.js"></script>
+  <script src="js/skel.min.js"></script>
+  <script src="js/skel-layers.min.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/smoothscroll.js"></script>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <script src="js/modernizr.js"></script>
 
-  <title>Blog TJBioOly</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
-
+  <noscript>
+    <link rel="stylesheet" href="css/skel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-xlarge.css" />
+  </noscript>
 </head>
 
-<body>
+<body class="landing">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">TJ Biology Olympiad Blog</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('images/blogimg.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>TJBioOly Blog</h1>
-            <span class="subheading">Questions and Summary for TJBioOly</span>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- Header -->
+  <header id="header">
+    <h1>TJ <inner style="color: #6abe41;">Bio Oly</inner></h1>
+    <nav id="nav">
+      <ul>
+        <li><a class="smoothScroll" href="index.html">Home</a></li>
+        <li><a class="smoothScroll" href="resources.html">Resources</a></li>
+        <li><a class="smoothScroll" href="contact.html">Contact</a></li>
+        </body>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="posts/post1.pdf">
-            <h2 class="post-title">
-              Week 1: BioChem
-            </h2>
-            <h3 class="post-subtitle">
-              Summary and Questions for Week 1
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Derrick Liang</a>
-            on October 4, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="posts/Digestive_System.pdf">
-            <h2 class="post-title">
-              Week 2: Digestive
-            </h2>
-            <h3 class = "post-subtitle">
-                Summary and Questions for Week 2
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">TJ BioOly</a>
-            on October 11, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="posts/Circulatory_Respiratory_Systems.pdf">
-            <h2 class="post-title">
-              Week 3: Circulatory/Gas Exchange
-            </h2>
-            <h3 class="post-subtitle">
-              Questions for Week 3
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">TJ BioOly</a>
-            on October 18, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Week 4: Immune
-            </h2>
-            <h3 class="post-subtitle">
-              Not Open
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">TJ BioOly</a>
-            on October 25, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Week 5: Osmoregulation
-            </h2>
-            <h3 class="post-subtitle">
-              Not Open
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">TJ BioOly</a>
-            on November 1, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="posts/Reproduction_Developmental.pdf">
-            <h2 class="post-title">
-              Week 6: Reproduction/Development
-            </h2>
-            <h3 class="post-subtitle">
-              Summary for Week 6
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">TJ BioOly</a>
-            on November 8, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="posts/Endocrine_System.pdf">
-            <h2 class="post-title">
-              Week 7: Endocrine
-            </h2>
-            <h3 class="post-subtitle">
-              Summary and Questions for Week 7
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">TJ BioOly</a>
-            on November 15, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="posts/Nervous_System_Problems.pdf">
-            <h2 class="post-title">
-              Week 8: Nervous
-            </h2>
-            <h3 class="post-subtitle">
-              Questions for Week 8
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">TJ BioOly</a>
-            on November 22, 2019</p>
-        </div>
-        <hr>
-        <hr>
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+  <!-- Banner -->
+  <section id="banner">
+    <h2>TJ <inner style="color: #58a744;">Biology Olympiad</inner>
+    </h2>
+    <p>The official site for TJBO</p>
+  </section>
+
+  <!-- One -->
+  <section id="about" class="wrapper style1 special">
+    <div class="container">
+      <header class="major">
+        <h2>Our purpose</h2>
+      </header>
+      <div style="text-align: center;">
+        <img src="images/TJBO 24-25.jpg" alt="" style="width:768px;height:576px;" />
+       </div>
+      <div class="row 150%">
+        <div class="2u">&nbsp;</div>
+        <div class="8u">
+          <h4><br>TJBO's primary goal is to provide a conducive learning environment dedicated to advancing the knowledge of biology at TJ.
+            Our officers work hard to take biology beyond what is typically taught in high school classes. The
+            majority of our club focuses on preparing for the USA Biology Olympiad competition held in February each year, but 
+            we also host a few smaller competitions, such as our annual winter and spring contests.
+            We welcome all interested members to join us in exploring the world of biology every Friday 8B!
+          </h4>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  <!-- TODO: add pictures -->
+  <!-- Two -->
+  <!-- TODO: complete schedule -->
+  <section id="schedule" class="wrapper style2 special" style="background-color: #99ad78; color:#ffffff">
+    <div class="container">
+      <header class="major">
+        <h2 style="color:#ffffff">Important Dates & Schedule</h2>
+      </header>
+      <div class="row">
+        <section class="6u">
+          <p>
+            9/5/25 - <a href="https://docs.google.com/presentation/d/1CSOOvW-GXETQNlJaFj8bxogyOrtNuuW8c6-Z5JcWxig/edit?usp=sharing">Introduction to BioOly</a><br>
+            9/12/25 - <a href="https://docs.google.com/presentation/d/1rdvPTPnvtI301Q0W7PHyjW6RqY_D5UV0WV-6krugGFA/edit?usp=sharing">Biochemistry</a><br>
+            9/19/25 - <a href="https://docs.google.com/presentation/d/1K5cXjaY0Qv9RS-wsItRMcqVhIxEuRXIAAXtsXdV6spM/edit?usp=sharing">Cell Biology</a><br>
+            9/26/25 - Homecoming Pep Rally!<br>
+            10/3/25 - <a href="https://docs.google.com/presentation/d/1vxyfNYTBe-BNULdV4MNa1yDt_2XUpR4l/edit?usp=sharing&ouid=103355116539343270425&rtpof=true&sd=true">Biotechnology</a><br>
+            10/10/25 - <a href="https://docs.google.com/presentation/d/115NlGbiJ9lVUDKKnjCWEms_eS0y5wd7h5HGHHBhssyo/edit?usp=sharing">Genetics</a><br>
+            10/17/25 - <a href="https://docs.google.com/presentation/d/1mF4DVbuKwNlX7h0-XBSBd7j3-KG4aUf1kpriLoKwuiE/edit?usp=sharing">Circulation & Respiration</a><br>
+            10/24/25 - <a href="https://docs.google.com/presentation/d/1pEjZ8uYHqCvSmUgWrp36A7JR7lqEnYQQR3N_l8L8tGw/edit?usp=sharing">Immune System</a><br>
+            10/31/25 - <a href="https://docs.google.com/presentation/d/1DWuil72JCXeYZwIKLyJxYLs00PBBNJpkI9jct14v21s/edit?usp=sharing">Endocrine System</a><br>
+            11/7/25 - <a href="https://docs.google.com/presentation/d/1vG7GAXz1rGBEMLhx6umHlo10EFKSxSnnKG1C4Y1X4bQ/edit?usp=sharing">Osmoregulation & Digestion</a><br>
+            11/8/25 - USABO Registration Deadline<br>
+            11/14/25 - <a href="https://docs.google.com/presentation/d/18cWSEqsCnZRKhM3ABW4f5tPBC4kYmmSe/edit?usp=sharing&ouid=103355116539343270425&rtpof=true&sd=true">Nervous System</a><br>
+            11/21/25 - Plants<br>
+            11/28/25 - Thanksgiving break<br>
+            12/3/25 - AoPS registration opens<br>
+            12/5/25 - Plants Part 2<br>
+            12/12/25 - <a href="https://docs.google.com/presentation/d/162tnY8SriTE1awNknkFsbcZTmzvkxIQY1ZHR4vzAenk/edit?usp=sharing">Ecology</a><br>
+            12/19/25 - Winter contest!<br>
+            1/9/26 - <a href="https://docs.google.com/presentation/d/1SRqPOvdUEGJKROscFRGjjJPEK3GkKVyHdjODCnghtRs/edit?usp=sharing">Evolution & Biosys</a><br>
+            1/15/26 - AoPS registration closes<br>
+            1/26/26 - Review!<br>
+          </p>
+        </section>
+        <section class="6u">
+          <p>
+            1/23/26 - USABO Tips<br>
+            1/30/26 - Teacher Workday<br>
+            2/4/26 - USABO Open Exam<br>
+            2/6/26 - Ethology<br>
+            2/20/26 - Guest lecture<br>
+            2/27/26 - Guest lecture<br>
+            3/6/26 - Guest lecture<br>
+            3/13/26 - Guest lecture<br>
+            3/20/26 - Holiday!<br>
+            3/27/26 - Spring Contest!<br>
+            3/28/26 - Guest lecture<br>
+            4/10/26 - Guest lecture<br>
+            4/17/26 - Spring contest<br>
+            4/24/26 - Guest lecture<br>
+            5/1/26 - AP Bio Review Session!<br>
+            5/7/26 - Guest lecture<br>
+            5/13/26 - Guest lecture<br>
+            5/22/26 - Guest lecture<br>
+          </p>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- QOTW -->
 
-  <hr>
-
+  <!--------
+  <section id="3d" class="wrapper style4" style="background-color: #f7fef7; color:#000000">
+    <div class="container">
+      <header class="major">
+        <h2>Question of the Week</h2>
+      </header>
+      <div class="row 150%">
+        <div class="2u">&nbsp;</div>
+        <div class="8u">
+          <center>
+                <h4>Weekly questions are a great way to practice for Biology Olympiad. Challenge yourself to work through these 
+                  problems on your own. We do encourage discussion with other students. Be sure to submit your answers by Friday 11:59 P.M. 
+                  Here is a link to this week's problem set! Be sure to complete it in time! </h4>
+                <!-- Question of the Week link: https://forms.gle/t5fKJVSrQd52sqSc7 -->
+                 <!-- <button class="QOTW" style="background-color: #99ad78; color:#000000;  padding: 15px 32px; text-align: center;  border: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer"><a href="https://docs.google.com/forms/d/e/1FAIpQLScc3kKLDbFvy0p-2Hwj42RiISCypyZHZeysg0nwKhJ_IuVfuA/viewform" style="color: white;">Question of the Week</a></button>      
+                   </center> --->
+           </div>
+      </div>
+    </div>
+     </div>
+  </section>
+ <!-- <section id="4d" class="wrapper style4" style="background-color: #f7fef7; color:#000000">
+    <div class="container">
+      <header class="major">
+        <h2>Semester 1 Leaderboard</h2>
+      </header>
+      <div class="row 150%">
+        <div class="2u">&nbsp;</div>
+        <div class="8u">
+            <h4>Top 5</h4>
+            <li> Coming Up</li>
+            <li> 1. Sarah Fu</li>
+            <li> 2. Om Duggineni</li>
+            <li> 3. Katherine Zhang</li>
+            <li> 4. Daniel Shi</li>
+            <li> 5. Aryamann Singh</li>
+  -------->
+           </div>
+      </div>
+    </div>
+     </div>
+  </section>
+ <!-- <section id="4d" class="wrapper style2 special" style="background-color: #6abe41; color:grey">
+    <div class="container">
+      <header class="major">
+        <h2>Semester 1 Leaderboard</h2>
+      </header>
+      <div class="row 150%">
+        <div class="2u">&nbsp;</div>
+        <div class="8u">
+          <center>
+                <h4 style="color: #474747;">Congratulations to everyone who is on the Question of the Week leaderboard for the first semester!</h4>
+          </center>
+           </div>
+      </div>
+    </div>
+      <div class="container" style = "margin-top: 50px; padding-bottom: 250px">
+        <div class="column">
+            <ul>
+              <div class='rank'>
+                <p class="title">Biology 1</p>
+              </div>
+                <p>Coming up</p>
+              <!-------
+              <div class='rank'>
+                <p class='num'>1.</p>
+                <p class="name">Caroline Li</p>
+              </div>
+              <div class='rank'>
+                <p class='num'>2.</p>
+                <p class="name">Aruni Veluri</p>
+              </div>
+              <div class='rank'>
+                <p class='num'>3.</p>
+                <p class="name">Justin Kim</p>
+              </div>
+              ----->
+            </ul>
+        </div>
+        <!---- <div class="column">
+          <ul>
+            <div class='rank'>
+              <p class="title">AP Biology</p>
+            </div>
+            <p>Coming up</p> --->
+            <!--------
+            <div class='rank'>
+              <p class='num'>1.</p>
+              <p class="name">Patrick Shi</p>
+            </div>
+            <div class='rank'>
+              <p class='num'>2.</p>
+              <p class="name">Jazzy Rogando</p>
+            </div>
+            <div class='rank'>
+              <p class='num'>3.</p>
+              <p class="name">Josie Whitaker</p>
+            </div>
+            --------->
+          </ul>
+        </div>
+        <!----- <div class="column">
+          <ul>
+            <div class='rank'>
+              <p class="title">Post-AP Bio</p>
+            </div>
+            <p>Coming Up</p> ---->
+            <!-------
+            <div class='rank'>
+              <p class='num'>1.</p>
+              <p class="name">Neanth Suresh</p>
+            </div>
+            <div class='rank'>
+              <p class='num'>2.</p>
+              <p class="name">Tapan Sapre</p>
+            </div>
+            <div class='rank'>
+              <p class='num'>3.</p>
+              <p class="name">Sofia Dimas</p>
+            </div>
+            -------->
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="row 150%">
+        <div class="2u">&nbsp;</div>
+        <div class="8u"style='color: #474747; font-weight: bold;'>
+            <p style="font-size: 24px; margin-top: 20px;">Top 5</p>
+            <div class="leaderboard">
+              <div class='rank'>
+                <p class='num'>1.</p>
+                <p class="name">Sarah Fu</p>
+              </div>
+              <div class='rank'>
+                <p class='num'>2.</p>
+                <p class="name">Om Duggineni</p>
+              </div>
+              <div class='rank'>
+                <p class='num'>3.</p>
+                <p class="name">Katherine Zhang</p>
+              </div>
+              <div class='rank'>
+                <p class='num'>4.</p>
+                <p class="name">Daniel Shi</p>
+              </div>
+              <div class='rank'>
+                <p class='num'>5.</p>
+                <p class="name">Aryamann Singh</p>
+              </div>
+            </div>
+           </div>
+      </div> -->
+    </div>
+     </div>
+  </section>
+  <!-- Three -->
   <!-- Footer -->
-  <footer>
+  <footer id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
+        <div class="8u 12u$(medium)">
+          <ul class="copyright">
+            <li><a href="https://styleshout.com">Open Source.</a> Made with <i class="fa fa-flask fa-lg"></i> by <a
+                href="https://github.com/shivamsingh0">Shivam Singh</a> and Dhanush Banka. Maintained by Shruti Bedekar.</li>
+          </ul>
+        </div>
+        <div class="4u$ 12u$(medium)">
+          <ul class="icons">
+            <li>
+              <a class="icon rounded fa-instagram" href="https://www.instagram.com/tjbiologyolympiad/"><span
+                  class="label">Instagram</span></a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
+            <li>
+              <a class="icon rounded fa-facebook" href="https://www.facebook.com/groups/118498551586776/"><span
+                  class="label">Facebook</span></a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
+            <li>
+              <a class="icon rounded fa-envelope-o color4" href="mailto:tjhsst.biologyolympiad@gmail.com"><span
+                  class="label">Email</span></a>
             </li>
           </ul>
-          <p class="copyright text-muted">&copy; TJ Biology Olympiad 2019</p>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </body>
 
 </html>
